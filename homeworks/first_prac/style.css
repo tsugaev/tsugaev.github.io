@@ -1,0 +1,128 @@
+* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			color: #46484a;
+		}
+		header {
+			background-color: #3d354e;
+			min-height: 600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			color: #fff;
+			text-align: center;
+		}
+		.text {
+			font-size: 70px;
+			width: 1140px;
+			max-width: 100%;
+			font-weight: bold;
+		}
+		.subtext {
+			width: 1140px;
+			max-width: 100%;
+		}
+		.first, .third, .five {
+			padding: 120px 0;
+			background-color: #f7f6f8;
+		}
+		.first img {
+			width: 100%;
+		}
+		.second {
+			padding: 120px 0;
+		}
+		.iphone .img {
+			text-align: center;
+		}
+		.iphone img {
+			max-width: 100%;
+		}
+		.iphone {
+			align-items: center;
+		}
+		.mac, .iphone {
+			display: flex;
+			width: 1140px;
+			max-width: 100%;
+			margin: auto;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.mac div, .iphone div {
+			width: 50%;
+		}
+		.desc {
+			font-size: 20px;
+		}
+		.mac .desc {
+			padding-right: 80px;
+		}
+		.iphone .desc {
+			padding-left: 80px;
+		}
+		.desc h1 {
+			font-size: 2em;
+		}
+		.features {
+			display: flex;
+			width: 1140px;
+			margin: auto;
+			font-size: 1.5em;
+			text-align: center;
+			max-width: 100%;
+			flex-wrap: wrap;
+		}
+		.features div {
+			padding: 20px;
+			width: 33%;
+		}
+		.payment {
+			display: flex;
+			width: 1140px;
+			max-width: 100%;
+			margin: auto;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+		.payment div {
+			width: 360px;
+			height: 400px;
+			background-color: red;
+			padding: 20px;
+			font-size: 17px;
+			background-color: #fff;
+		}
+		.payment div:nth-child(2) {
+			background-color: #3d354e;
+			color: #fff;
+
+		}
+		.video {
+			width: 900px;
+			margin: auto;
+			text-align: center;
+		}
+		.five {
+			text-align: center;
+		}
+		.five h1 {
+			font-size: 2em;
+			margin-bottom: 0;
+		}
+		.price {
+			font-size: 20px;
+		}
+		.four {
+			padding: 120px 0;
+		}
+		footer {
+			background-color: #3d354f;
+			color: #fff;
+			text-align: center;
+			padding: 50px 0;
+
+		}
