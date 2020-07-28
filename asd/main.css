@@ -1,0 +1,262 @@
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald';
+}
+p {
+    font-family: 'Open sans';
+}
+.fon {
+    width: 100%;
+    background-image: url(img/first-screen.jpg);
+    background-repeat: no-repeat;
+}
+.two {
+    text-align: end;
+}
+.proect {
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 100px 100px 0 100px;
+}
+.gaz {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0 150px 0;
+}
+.wrapper {
+    width: 1110px;
+    margin-top: -90px;
+    background-color: rgb(231, 222, 222);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.dva h1 {
+    color: #F7654A;
+    font-size: 70px;
+    font-weight: 600;
+}
+.dva h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.dva p {
+    color: #404149;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 8px;
+}
+.nashi {
+    text-align: center;
+    font-weight: 700;
+    color: #404149;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.arena {
+    font-weight: 700;
+    color: #404149;
+    padding-top: 50px;
+}
+.text {
+    color: grey;
+    font-size: 12px;
+    padding-right: 60px;
+    margin-bottom: 100px;
+}
+.proecti {
+    width: 100%;
+    background-color: #F7654A;
+}
+.samie {
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px
+}
+.realiz {
+    color: #fff;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.knopka {
+    display: flex;
+    width: 150px;
+    background-color: #fff;
+    margin-top: 70px;
+    padding: 5px 10px;
+}
+.knopka i {
+    padding-top: 15px;
+    padding-left: 8px;
+}
+.knopka p {
+    padding-top: 10px;
+    padding-left: 8px;
+}
+.odin {
+    display: flex;
+    justify-content: space-between;
+}
+.chem {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.build {
+    text-align: center;
+    margin-top: 50px;
+}
+.build p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 80px 0 80px;
+}
+.vopros h1{
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+.rabot {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.rabot h1 {
+    color: #F7654A;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.rabot p {
+    color: #999;
+    font-size: 20px;
+}
+.rabot-1 {
+    display: block;
+}
+.rabot-1 h1 {
+    color: #F7654A;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.rabot-1 p {
+    color: #999;
+    font-size: 20px;
+}
+.portner {
+    width: 100%;
+    background-color: #404149;
+    margin-top: 150px;
+}
+.nashe {
+    text-align: center;
+    margin-top: 100px;
+}
+.nashe h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+.obshi {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.cnami {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.cnami h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+.kovichki h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #F7654A;
+    margin-left: 50px;
+}
+.kovichki p {
+    color: #999;
+    margin-left: 50px;
+
+}
+.ivan p {
+    font-weight: 800;
+    color: #000;
+    font-size: 18px;
+}
+.ivan span {
+    color: #F7654A;
+    font-weight: 800;
+    font-size: 18px;
+}
+.fff {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contakti {
+    margin-bottom: 50px;
+}
+.contakti h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+}
+.place {
+    text-align: center;
+}
+.place i {
+    color: #F7654A;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.place h5 {
+    color: #999;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.place p {
+    color: #000;
+    font-weight: 900;
+}
+.place a {
+    color: #F7654A;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.footer {
+    width: 100%;
+    background-color: #404149;
+    padding: 30px 0;
+}
+.str {
+    color: #999;
+}
+.raz {
+    color: #999;
+}
