@@ -12,13 +12,22 @@
 		}
 		.header {
 			background-image: url(https://cdn.newsapi.com.au/image/v1/ea8f2f2db169d237287671110711fd2d);
-			background-size: cover;
+			background-size: 100%;
 			font-size: 50px;
 			color: white;
 			font-weight: 900;
 			text-align: center;
 			text-shadow: 0 0 10px black;
-			padding: 300px 0;
+			height: 700px;
+			background-attachment: fixed;
+		}
+		.tbl {
+			display: table;
+			height: 100%;
+		}
+		.tbl-cll {
+			display: table-cell;
+			vertical-align: middle;
 		}
 		.section-1 {
 			padding: 100px 0;
@@ -92,7 +101,11 @@
 </head>
 <body>
 	<div class="header">
-		Lorem ipsum dolor sit amet
+		<div class="tbl">
+			<div class="tbl-cll">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+			</div>
+		</div>
 	</div>
 	<div class="section-1 text-center ">
 		<div class="container">
