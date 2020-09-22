@@ -84,45 +84,6 @@
 			</section>
 
 		<!-- One -->
-			<section id="one" class="wrapper style2">
-				<div class="inner">
-					<div class="grid-style">
-
-						<div>
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>maecenas sapien feugiat ex purus</p>
-										<h2>Lorem ipsum dolor</h2>
-									</header>
-									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
-									<footer class="align-center">
-										<a class="button alt" id="collapse-link-1" data-toggle="collapse-1">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="box">
-								<div class="image fit">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-								<div class="content">
-									<header class="align-center">
-										<p>mattis elementum sapien pretium tellus</p>
-										<h2>Vestibulum sit amet</h2>
-									</header>
-									<p> Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.</p>
-									<footer class="align-center">
-										<a class="button alt" id="collapse-link-2" data-toggle="collapse-2">Learn More</a>
-									</footer>
-								</div>
-							</div>
-						</div>
 <style type="text/css">
 	.menu {
 		visibility: hidden;
@@ -183,50 +144,7 @@
 	}
 
 </style>
-					</div>
-					<div class="collapse hidden" id="collapse-1">
-						<h2>Lorem ipsum dolor</h2>
-						<div class="flex-main">
-							<div class="collapse-img">
-								<img src="file:///Users/tsugaev/Downloads/templated-hielo/images/pic02.jpg">
-							</div>
-							<div class="collapse-disc">
-								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
-								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
-								Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.aliquet urna ut sapien tincidunt, quis malesuada elit facilisis
-							</div>
-						</div>
-					</div>
-					<div class="collapse hidden" id="collapse-2">
-						<h2>Vestibulum sit amet</h2>
-						<div class="flex-main">
-							<div class="collapse-img">
-								<img src="file:///Users/tsugaev/Downloads/templated-hielo/images/pic03.jpg">
-							</div>
-							<div class="collapse-disc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-								proident, sunt in culpa qui officia deserunt mollit anim id est laborum. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur.
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 		<!-- Two -->
-			<section id="two" class="wrapper style3">
-				<div class="inner">
-					<header class="align-center">
-						<p>Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna</p>
-						<h2>Morbi maximus justo</h2>
-					</header>
-				</div>
-			</section>
 
 		<!-- Three -->
 			<section id="three" class="wrapper style2">
@@ -291,23 +209,6 @@
 
 			function menuToggle() {
 				menu.classList.toggle('menu-visible');
-			}
-
-			const collapseLinkOne = document.getElementById('collapse-link-1');
-			const collapseLinkTwo = document.getElementById('collapse-link-2');
-
-			const collapseOne = document.getElementById('collapse-1');
-			const collapseTwo = document.getElementById('collapse-2');
-
-			collapseLinkOne.onclick = collapse;
-			collapseLinkTwo.onclick = collapse;
-
-			function collapse() {
-				collapseOne.className = 'hidden';
-				collapseTwo.className = 'hidden';
-				let currentId = this.dataset.toggle;
-				let block = document.getElementById(currentId);
-				block.className = 'animated fadeInDown';
 			}
 
 			const img1 = document.getElementById('img-1');
