@@ -226,10 +226,10 @@
 				openedImg.className = '';
 				openedImg.className = 'animated zoomIn';
 				deactivator.className = 'animated zoomIn';
-				let currentImgSrc = this.firstElementChild.src;
-				let img = document.creatElement(img);
+				let currentImgSrc = this.firstElementChild.getAttribute('src');
+				let img = document.creatElement('img');
 				img.src = currentImgSrc;
-				openedImg.innerHTML = img;
+				openedImg.append(img);
 			}
 
 			deactivator.onclick = imageClose;
