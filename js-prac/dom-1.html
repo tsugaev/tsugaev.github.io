@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		section {
+			padding: 50px 0;
+		}
+	    .bg {
+			width: 300px;
+			height: 300px;
+			background-color: red;
+		}
+		.blue {
+			background-color: blue;
+		}
+		.block {
+			border: 1px solid black;
+			width: 300px;
+			transition: 1s;
+			padding: 20px;
+		}
+		.none {
+			display: none;
+		}
+		.visible {
+			display: block;
+		}
+		.btn {
+			padding: 20px;
+			font-size: 1.2em;
+		}
+		.container {
+			display: flex;
+		}
+		.container div {
+			width: 300px;
+			height: 250px;
+			margin-right: 50px;
+			border: 1px solid black;
+		}
+		img {
+			width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<section class="first">
+		<h2>Задание 1</h2>
+		<p>Сделать блок, который будет менять цвет при клике и возвращать предыдущий цвет при повторном клике</p>
+		<div class="bg" id="bg"></div>
+	</section>
+	<section class="second">
+		<h2>Задание 2</h2>
+		<p>Сделать блок, который будет появляться при клике на кнопку, и скрываться при повторном клике.</p>
+		<p>**Изменять текст кнопки в зависимости от состояния блока. Если блок виден - текст должен быть "скрыть", иначе - "показать"</p>
+		<button class="btn" id="btn">
+			Показать
+		</button>
+		<div class="block none" id="block">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</section>
+	<section class="three">
+		<h2>Задание 3</h2>
+		<p>Сделать два блока. Внутри первого блока есть изображение (img). При клике на этот блок, картинка из первого блока становится фоновым изображением(background-image)второго блока</p>
+		<div class="container">
+			<div class="item-img" id="item-img">
+				<img src="https://html5css.ru/css/img_forest.jpg">
+			</div>
+			<div class="item-bg" id="item-bg">
+				Второй блок
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript">
+		// 1-е
+
+		let bg = document.getElementById('bg');
+		bg.onclick = bgChange;
+
+		function bgChange() {
+			this.classList.toggle('blue');
+		}
+
+		// 2-е
+		let btn = document.getElementById('btn');
+		let block = document.getElementById('block');
+
+		function f() {
+		 	block.classList.toggle('none');
+		 	block.classList.toggle('visible');
+		 	if (block.classList.contains('visible')) {
+		 		btn.innerHTML = 'Скрыть';
+		 	} else {
+		 		btn.innerHTML = 'Показать';
+		 	}
+		}
+		btn.onclick = f;
+
+		// 3-е
+
+
+
+		let item1 = document.getElementById('item-img');
+		let item2 = document.getElementById('item-bg');
+
+		item1.onclick = bgImage;
+
+		function bgImage() {
+			let src = this.firstElementChild.src;
+			item2.style.backgroundImage = `url(${src})`;
+		}
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+</body>
+</html>
+<script>
+
+
+const cities = [
+    {name: 'Москва', population: 12506468},
+    {name: 'Санкт-Петербург', population: 5351935},
+    {name: 'Новосибирск', population: 1612833},
+    {name: 'Калиниград', population: 482443},
+    {name: 'Калуга', population: 336726}
+];
+
+let million = cities.filter(function(item) {
+	return item.population > 1000000;
+})
+
+let babybang = cities.map(function(item) {
+	let pop = item.population + (item.population * 0.01 * 12);
+	return {name: item.name, population: pop};
+})
+
+let pop = babybang.reduce(function(sum, item) {
+	return sum + item.population;
+}, 0);
+console.log(pop);
+</script>
