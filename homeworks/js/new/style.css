@@ -260,7 +260,8 @@ input:focus {
     background-color: #4e5152;
     margin: 0 auto;
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+    display: none;}
     .section-heading .line::after {
       width: 60px;
       height: 2px;
